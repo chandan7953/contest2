@@ -1,0 +1,247 @@
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-left: 49px;
+    margin-right: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+    border: 2px solid red;
+    padding: 10px;
+    color: #373737;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex; 
+    align-items: center; 
+
+}
+
+li {
+    margin-left: 20px; 
+}
+
+li:last-child {
+    margin-right: 0; 
+}
+
+li a {
+    text-decoration: none;
+    color: #000; 
+    display: flex; 
+    align-items: center; 
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo img {
+    width: 230px;
+    height: 66px;
+    margin-right: 10px; 
+}
+
+.btn{
+    width: 223px;
+    height: 49px;
+    border-radius: 23.5px;
+    background: #184655;
+    box-shadow: 2px 3px 2px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn>a{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500; 
+}
+
+.blog{
+    color: rgba(0, 0, 0, 0.61);
+    margin-right: 30px;
+}
+.article-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    height: 400px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    background-image: url(image/Rectangle.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.article-1-container {
+    display: flex;
+    flex: 1;
+    padding: 80px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.article-1-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.article-1-image-container {
+    width: 50%;
+    padding-left: 85px;
+}
+
+.article-1-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 110px;
+}
+
+.search-parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#search {
+    width: 400px;
+    height: 79px;
+}
+
+.search-class {
+    background-color: #184655;
+    border: none;
+    border-radius: 0px 19px 19px 0px;
+    width: 189.595px;
+    height: 55px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 118%;
+    margin-left: 0px;
+    padding-top: 28px;
+}
+
+.article-1-para {
+    color: #184655;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-size: 29px;
+}
+
+
+.article-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    height: 400px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    background-image: url(image/Rectangle.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.article-1-container {
+    display: flex;
+    flex: 1;
+    padding: 80px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.article-1-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.article-1-image-container {
+    width: 50%;
+    padding-left: 85px;
+}
+
+.article-1-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 110px;
+}
+
+.search-parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#search {
+    width: 400px;
+    height: 79px;
+}
+
+.search-class {
+    background-color: #184655;
+    border: none;
+    border-radius: 0px 19px 19px 0px;
+    width: 189.595px;
+    height: 55px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 118%;
+    margin-left: 0px;
+    padding-top: 28px;
+}
+
+.article-1-para {
+    color: #184655;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-size: 29px;
+}
