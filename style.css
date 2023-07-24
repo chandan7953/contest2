@@ -164,6 +164,10 @@ li a {
     gap: 110px;
 }
 
+.article1-links>a{
+    text-decoration: none;
+}
+
 .col2 {
     background-size: cover;
 }
